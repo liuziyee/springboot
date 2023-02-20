@@ -12,3 +12,5 @@ context:
     classes: com.dorohedoro.initializer.Initializer02
   listener:
     classes: com.dorohedoro.listener.Listener02
+
+dorohedoro:
