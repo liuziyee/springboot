@@ -1,2 +1,2 @@
 org.springframework.context.ApplicationContextInitializer=com.dorohedoro.initializer.Initializer01
-org.springframework.context.ApplicationListener=com.dorohedoro.listener.Listener01
+org.springframework.context.ApplicationListener=com.dorohedoro.listener.Listener01,com.dorohedoro.listener.Listener03

@@ -12,13 +12,13 @@ import javax.annotation.Resource;
 @Slf4j
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
-public class InitializerTest {
+public class EnvTest {
 
     @Resource
     private ApplicationContext context;
     
     @Test
     public void getEnv() {
-        log.info(context.getEnvironment().getProperty("初始化器02"));
+        log.info(context.getEnvironment().getProperty("nintendo"));
     }
 }
