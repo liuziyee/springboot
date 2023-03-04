@@ -17,9 +17,9 @@ public class NintendoAwareBeanPostProcessor implements BeanPostProcessor {
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        log.info("在自定义后处理器里,对实现了自定义Aware接口的Bean调用set()注入属性");
         if (bean instanceof Aware) {
             if (bean instanceof NintendoAware) {
+                log.info("在自定义后处理器里,对实现了自定义Aware接口的Bean调用set()注入属性");
                 ((NintendoAware) bean).setNintendo((Nintendo) context.getBean("nintendo"));
             }
         }
