@@ -15,7 +15,7 @@ public class Initializer01 implements ApplicationContextInitializer<Configurable
         if (context.getParent() == null) {
             log.info("启动初始化器01");
             ConfigurableEnvironment environment = context.getEnvironment();
-            environment.setRequiredProperties("dorohedoro");
+            environment.setRequiredProperties("nissin");
             //Map<String, Object> map = new HashMap<>();
             //map.put("初始化器01", "1");
             //MapPropertySource source = new MapPropertySource("初始化器01", map);

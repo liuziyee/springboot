@@ -13,6 +13,5 @@ context:
   listener:
     classes: com.dorohedoro.listener.Listener02
 
-dorohedoro:
-
+nissin:
 nintendo: splatoon
